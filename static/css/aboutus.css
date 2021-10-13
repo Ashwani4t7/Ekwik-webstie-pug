@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(207,236,224);
+}
+
+#contact-nav {
+    background-color: rgb(241, 199, 100);
+    color: rgb(0, 0, 0);
+}
+#contact-nav ul {
+    display: flex;
+    align-items: left;
+    list-style: none;
+
+}
+#contact-nav ul li {
+    margin-left: 50px;
+    nav-right: 50px;
+    padding: 10px;
+}
+.contact-nav-color {
+    color: rgb(0, 0, 0);
+}
+#menu-section {
+    display: flex;
+    justify-content: space-evenly;
+}
+#image.inside-menu-section  {
+    background-image: url(../image);
+    /* border: 2px solid red; */
+    width: 200px;
+    height: 80px;
+}
+#main-menu.inside-menu-section {
+    width: 800px;
+    height: 80px;
+    margin-left: 200px;
+    padding-left: 200px;
+    
+}
+#main-menu.inside-menu-section ul {
+    display: flex;
+    padding: 15px;
+
+}
+#main-menu.inside-menu-section ul li {
+    list-style: none;
+    margin: 20px;
+    transition: all 0.2s ease;
+}
+#main-menu.inside-menu-section ul li:hover {
+    transform: scale(1.2);
+    background: black;
+    border-radius: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+
+}
+#main-menu.inside-menu-section ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+#main-menu.inside-menu-section ul li a:hover {
+    color: rgb(241, 199, 100);
+}
+#service-menu {
+    display: flex;
+    justify-content: space-evenly;
+    color: black;
+    background-color: rgb(241, 199, 100);
+    height: 50px;
+    cursor: pointer;
+}
+.service-menu-class {
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    padding: 10px;
+}
+
+.service-menu-sub-menu {
+    background-color: rgb(8, 7, 7);
+    color: white;
+    border-radius: 10px;
+   
+}
+.service-menu-sub-menu ul li {
+    margin: 10px;
+    padding: 10px;
+    list-style: none;
+}
+.service-menu-sub-menu ul li a {
+    text-decoration: none;
+    color: white;
+}
+.service-menu-sub-menu ul li:hover a {
+    color: black;
+}
+.service-menu-sub-menu ul li:hover {
+    background-color: rgb(241, 199, 100);
+    border-radius: 10px;
+}
+#Search-engine-optimization-Sub-menu {
+    position: absolute;
+    left: 100px;
+    top: 160px;
+    visibility: hidden;
+}
+#Search-engine-optimization:hover #Search-engine-optimization-Sub-menu{
+    visibility: visible;    
+}
+
+#Packages-main-Sub-menu {
+    display: flex;
+    position: absolute;
+    left: 320px;
+    top: 160px;
+    visibility: hidden;
+}
+#Packages:hover #Packages-main-Sub-menu {
+    visibility: visible;
+}
+#Reseller-Sub-menu {
+    display: flex;
+    position: absolute;
+    left: 520px;
+    top: 160px;
+    visibility: hidden;
+}
+#Reseller:hover #Reseller-Sub-menu {
+    visibility: visible;
+}
+#Reputation-Management-Sub-menu {
+    display: flex;
+    position: absolute;
+    left: 720px;
+    top: 160px;
+    visibility: hidden;
+}
+#Reputation-Management:hover #Reputation-Management-Sub-menu {
+    visibility: visible;
+}
+#Development-main-Solutions {
+    display: flex;
+    position: absolute;
+    left: 820px;
+    top: 160px;
+    visibility: hidden;
+}
+#Development-Solutions:hover #Development-main-Solutions {
+    visibility: visible;
+}
+#Social-Media-Sub-menu {
+    display: flex;
+    position: absolute;
+    left: 1120px;
+    top: 160px;
+    visibility: hidden;
+}
+#Social-Media:hover #Social-Media-Sub-menu {
+    visibility: visible;
+}
+#Others-main {
+    display: flex;
+    position: absolute;
+    left: 1120px;
+    top: 160px;
+    visibility: hidden;
+}
+#Others:hover #Others-main {
+    visibility: visible;
+}
