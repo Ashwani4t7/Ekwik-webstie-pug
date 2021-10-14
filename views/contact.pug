@@ -7,4 +7,34 @@ block script
 block style 
     style 
         include ../static/css/contact.css
-block content  
+block content 
+    div#Contact-image
+    section#section-contact
+        div#contact-info.sub-section-contact
+            h1 Ekwik Digital
+            p So, are you ready to get web development, marketing, and SEO services in India?
+            h1 Contact us 
+            p | Office no | 
+            p 9989898989  
+            p | Mobile no | 
+            p 9989898989  
+            p | Email | 
+            p 9989898989  
+            h1 Address 
+            p add content  
+        form#contact-form.sub-section-contact(action="/contact.pug", method="get" , name="contactForm")
+            h1 Let's talk
+            p New Projects, Marketing Strategy, New website, or even a coffee.
+            | NAME 
+            input(type="text" name="username" id="input-name")
+            | EMAIL  
+            input(type="text" name="useremail" id="input-email")
+            | CONTACT NUMBER  
+            input(type="number" name="usercontact" id="input-contact")  
+            | COMPANY NAME  
+            input(type="text" name="usercompanyname" id="input-Company-name") 
+            p SHORT MESSAGE 
+            textarea#form-text-area(name="text-area", cols="30", rows="5")  
+            button#form-btn(type="Submit" Placeholder="Send Details" ) 
+                p  Send Details
+

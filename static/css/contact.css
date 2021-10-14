@@ -175,3 +175,103 @@ body {
 #Others:hover #Others-main {
     visibility: visible;
 }
+
+#Contact-image {
+    height: 560px;
+    background: no-repeat center center/cover url(../static/image/contact-image01.jpg);
+}
+
+#section-contact {
+    display: flex;
+    width: 80%;
+    margin:auto ;
+
+}
+#contact-form {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    margin: 20px;
+    padding: 50px;
+    /* border: 2px solid red; */
+    margin-left:0px ;
+    box-shadow: 5px 5px 12px black;
+    transition: transform 0.5 ease;
+}
+#contact-form:hover {
+    transform: scale(1.02);
+}
+#contact-form p {
+    margin: 10px 0px 10px 0px;
+}
+#contact-info {
+    margin: 20px;
+    padding: 50px;
+    /* border: 2px solid red; */
+    margin-right: 0px;
+}
+#contact-form input {
+    border: 2px solid rgb(0, 0, 0);
+    background: black;
+    color: white;
+    outline: none;
+    border-bottom:2px solid white ;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 30px;
+    width: 250px;
+    transition: all 0.7s ease;
+
+}
+
+#contact-form input:hover {
+    border-bottom:2px solid rgb(255, 131, 49) ;
+    width: 100%;
+}
+
+.sub-section-contact {
+    height: 500px;
+    width: 100%;
+}
+#form-text-area {
+    border: 2px solid rgb(0, 0, 0);
+    background: black;
+    color: white;
+    outline: none;
+    border-bottom:2px solid white ;
+    width: 250px;
+    transition: all 0.7s ease;
+}
+#form-text-area:hover {
+    border-bottom:2px solid rgb(255, 131, 49) ;
+    width: 100%;
+}
+#form-btn {
+    height: 50px;
+    width: 150px;
+    margin: 25px;
+    margin-left: 0px;
+    color: black;
+    border: 2px solid black;
+    background-color: rgb(255,57,70);
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 300;
+    cursor: pointer;
+}
+#contact-info {
+    padding: 50px;
+    background-color: white;
+    box-shadow: 5px 5px 12px black;
+
+}
+#contact-info h1 {
+    margin: 20px;
+    text-decoration:wavy;
+    color: rgb(255,114,94);
+}
+#contact-info p {
+    margin: 20px;
+    /* color: rgb(79,174,134); */
+}

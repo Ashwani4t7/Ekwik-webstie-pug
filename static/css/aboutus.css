@@ -175,3 +175,79 @@ body {
 #Others:hover #Others-main {
     visibility: visible;
 }
+
+#aboutus {
+    background: no-repeat top  center/cover url(../static/image/ekwikdigital.jpg);
+    width: 100%;
+    height:680px;
+    /* border: 2px solid red; */
+}
+#about-card {
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+   
+}
+.sub-about-card-class {
+    /* border: 2px solid red; */
+    height: 700px;
+    width: 500px;
+    
+    
+}
+#sub-about-card1 {
+    background: rgb(255, 138, 59);
+    justify-items: center;
+    align-items: center;
+    height: 700px;
+    width: 400px;
+   
+
+}
+#sub-about-card2 {
+    background: rgb(255, 0, 0);
+    height: 700px;
+    width: 400px;
+  
+}
+#sub-about-card3 {
+    position: absolute;
+   
+    
+    background: rgb(247, 140, 0);
+   z-index: -1;
+    
+}
+
+.aboutus-btn {
+    height: 50px;
+    width: 100px;
+    
+}
+.aboutus-btn p {
+    font-size: 20px;
+}
+#about{
+position: relative;
+    top: 350px;
+    left: 300px;
+    background: rgb(255, 0, 0);
+    color:rgb(0, 0, 0) ;
+    outline: none;
+    border-radius: 10px;
+    border: 2px solid rgb(255, 0, 0);
+    cursor: pointer;
+}
+#us{
+    cursor: pointer;
+    outline: none;
+    border-radius: 10px;
+    position: relative;
+    top: 350px;
+    left: 0px;
+    background: rgb(0, 0, 0);
+    color:rgb(255, 0, 0) ;
+    border: 2px solid black;
+}
