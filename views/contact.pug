@@ -1,12 +1,13 @@
 extends base.pug
 
 block script 
-    script(src="/static/js/contact.js") 
+    script(src="/static/js/main.js") 
     <script src="https://kit.fontawesome.com/3c86032974.js" crossorigin="anonymous"></script>
 
 block style 
     style 
         include ../static/css/contact.css
+        include ../static/css/contactphone.css
 block content 
     div#Contact-image
     section#section-contact
@@ -14,14 +15,14 @@ block content
             h1 Ekwik Digital
             p So, are you ready to get web development, marketing, and SEO services in India?
             h1 Contact us 
-            p | Office no | 
-            p 9989898989  
-            p | Mobile no | 
-            p 9989898989  
-            p | Email | 
-            p 9989898989  
+            p  <i class="fas fa-blender-phone"></i> Office no  
+            p 011-42175423 
+            p <i class="fas fa-mobile-alt"></i> Mobile no  
+            p +91 9717666076 
+            p  <i class="fas fa-envelope"></i> Email  
+            p hello@ekwikdigital.com  
             h1 Address 
-            p add content  
+            p A-20, First Floor, Guru Nanak Pura, Street No. 3, Laxmi Nagar, Delhi – 110092, Landmark – In Front Of V3s Mall  
         form#contact-form.sub-section-contact(action="/contact.pug", method="get" , name="contactForm")
             h1 Let's talk
             p New Projects, Marketing Strategy, New website, or even a coffee.
@@ -38,3 +39,5 @@ block content
             button#form-btn(type="Submit" Placeholder="Send Details" ) 
                 p  Send Details
 
+    Section#googlemap 
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4139.671128948162!2d77.28249300892676!3d28.636323180071926!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce3b6a48a38d9%3A0x9f0dae49642f744a!2sEkwik%20Digital!5e0!3m2!1sen!2sin!4v1634535783091!5m2!1sen!2sin" width="1180" height="500" style="border-radius:20px;" allowfullscreen="" loading="lazy"></iframe>

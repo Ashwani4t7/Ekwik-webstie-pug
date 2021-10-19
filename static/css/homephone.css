@@ -1,0 +1,75 @@
+@media screen and (max-width: 1300px) {
+    /* Navbar section */
+    #contact-nav {
+     display: none;
+    }
+    #phonenav{
+        display: flex;
+    }
+    #logo {
+        display: block;
+    }
+    #phone-menu {
+        display: block;
+    }
+    #divider {
+        display: block;
+    }
+    
+    #hamburgur {
+        display: inline-block;
+        z-index: 100;
+        
+    }
+    
+    #menu-section {
+        display: none;
+    }
+    #service-menu {
+        display: none;
+    }
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    #service-card {
+        display: block;
+        width: 100%;
+        justify-content: space-around;
+        text-align: center;
+        align-items: center;
+    }
+    .service-card-class {
+        display: flex;
+        width: 60%;
+        text-align: center;
+        align-items: center;
+        margin-left: 100px;
+    }
+    
+    #service-menu {
+        display: none;
+    }
+
+}

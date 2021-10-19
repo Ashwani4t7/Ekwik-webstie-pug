@@ -1,0 +1,33 @@
+@media screen and (max-width: 1300px) {
+    /* Navbar section */
+    #contact-nav {
+     display: none;
+    }
+    #phonenav{
+        display: flex;
+    }
+    #logo {
+        display: block;
+    }
+    #phone-menu {
+        display: block;
+    }
+    #divider {
+        display: block;
+    }
+    
+    #hamburgur {
+        display: inline-block;
+        z-index: 100;
+        
+    }
+    #menu-section {
+        display: none;
+    }
+    #service-menu {
+        display: none;
+    }
+    
+
+
+}

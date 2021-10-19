@@ -1,7 +1,10 @@
 * {
     margin: 0;
     padding: 0;
+    /* font-family: 'Montserrat', sans-serif; */
 }
+
+
 
 body {
     background-color: rgb(207,236,224);
@@ -25,13 +28,125 @@ body {
 .contact-nav-color {
     color: rgb(0, 0, 0);
 }
+
+#phonenav {
+    background:rgb(241, 199, 100);
+    height: 200px;
+    display: none;
+}
+
+#logo {
+    position: relative;
+    left: 200px;
+    top: 50px;
+    border: 2px solid red;
+    height: 100px;
+    width: 600px;
+    display: none;
+}
+#phone-menu {
+    position: fixed;
+    top: 0;
+    left: 0%;
+    width: 100%;
+    min-height: 100vh;
+    z-index: 98;
+    padding-top: 100px;
+    background: linear-gradient(
+    #eacda3 , #d6ae7b);
+    border-bottom: 2px solid black;
+    transition: all 0.5s ease;
+    display: none;
+}
+#phone-menu.is-active {
+    left:100%;
+}
+
+ #phone-menu ul {
+     margin: auto;
+     padding: 10px;
+     position: relative;
+     justify-content: center;
+     text-align:justify;
+     align-items: center;
+     margin-top: 50px;
+     
+    }
+    #phone-menu ul li {
+        list-style: none;
+        margin: 10px;
+        padding: 12px 16px;
+    }
+    #phone-menu ul li a {
+     margin-left: 25px;
+     text-decoration: none;
+     color: rgb(0, 0, 0);
+     font-size: 40px;
+     
+ }
+ #phone-menu #services {
+    margin-left: 35px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+ }
+ #divider {
+     width: 80%;
+     border: 2px solid black;
+     border-radius: 20px;
+     height: 5px;
+     background-color: black;
+     margin-left: 35px;
+     display: none;
+    }
+#hamburger {
+    position: relative;
+    left: 50px;
+    top: 50px;
+    display: block;
+    width: 90px;
+    height: 100px;
+    cursor: pointer;
+
+    appearance: none; 
+    background: none;
+    border: none;
+    outline: none;
+    z-index: 99;
+}
+#hamburger .bar {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 10px;
+    background-color: rgb(0, 0, 0);
+    margin: 8px 0px;
+    transition: all 0.45s ease;
+    border-radius: 10px;
+}
+#hamburger #bar2 {
+    width: 60%;
+}
+#hamburger.is-active #bar1{
+    transform: rotate(-45deg) translate(-8px , 6px);
+
+}
+#hamburger.is-active #bar2{
+display: none;
+}
+#hamburger.is-active #bar3{
+    transform: rotate(45deg) translate(-8px , -4px);
+
+}
+ 
+
 #menu-section {
     display: flex;
     justify-content: space-evenly;
 }
 #image.inside-menu-section  {
     background-image: url(../image);
-    /* border: 2px solid red; */
+    border: 2px solid red;
     width: 200px;
     height: 80px;
 }
@@ -89,6 +204,7 @@ body {
     border-radius: 10px;
    
 }
+
 .service-menu-sub-menu ul li {
     margin: 10px;
     padding: 10px;
@@ -280,24 +396,7 @@ body {
     height: 1000px;
 }
 
-#card1-image-sub-menu {
-    display: flex;
-    position: absolute;
-    left: -1000px;
-    top: 50px;
-    height: 300px;
-    width: 300px;
-    visibility: hidden;
-    transition: all 0.5s ease;
-    z-index: -10;
-}
-#card1:hover #card1-image-sub-menu {
-    visibility: visible;
-    left: 100px;
-    top: 50px;
-    z-index: 1;
-    
-}
+
 #card1:hover  {
     background-color:rgb(241, 199, 100);
 
@@ -330,24 +429,7 @@ body {
 
 
 
-#card2-image-sub-menu {
-    display: flex;
-    position: absolute;
-    left: 100px;
-    top: -1000px;
-    height: 300px;
-    width: 300px;
-    visibility: hidden;
-    transition: all 0.5s ease;
-    z-index: -10;
-}
-#card2:hover #card2-image-sub-menu {
-    visibility: visible;
-    left: 100px;
-    top: 50px;
-    z-index: 1;
-    
-}
+
 #card2:hover  {
     background-color:rgb(241, 199, 100);
 
@@ -378,26 +460,7 @@ body {
 
 
 
-#card3-image-sub-menu {
-    display: flex;
-    position: absolute;
-    left:50px;
-    bottom: -1000px;
-    height: 300px;
-    width: 300px;
-    visibility: hidden;
 
-    transition: all 0.5s ease;
-    z-index: -10;
-}
-#card3:hover #card3-image-sub-menu {
-    visibility: visible;
-   
-    left: 50px;
-    bottom: 0px;
-    z-index: 1;
-    
-}
 #card3:hover  {
     background-color:rgb(241, 199, 100);
 
@@ -511,19 +574,48 @@ body {
 }
 .service-card-class:hover {
     border-radius: 10px;
-    background: black;
-    color: white;
+    color: rgb(0, 0, 0);
     transform: scale(1.05);
 }
+#service-card1:hover {
+    background:rgb(134,206,228);
+
+}
+#service-card2:hover {
+    background:rgb(255,200,1);
+
+}
+#service-card3:hover {
+    background:rgb(249,141,33);
+
+}
+#service-card4:hover {
+    background:rgb(255,79,90);
+
+}
+
 
 .service-card-image-class {
     height: 320px;
+    width: 280px;
     /* border: 2px solid black; */
     padding: 5px;
     margin: 5px;
-    background: no-repeat center center/cover url(../static/image/seo.jpg)
 
 }
+#sub-service-card1-image {
+    background: no-repeat center center/cover url(../static/image/seoo.jpg);
+}
+#sub-service-card2-image {
+    background: no-repeat center center/cover url(../static/image/smo.jpg);
+}
+#sub-service-card3-image {
+    background: no-repeat center center/cover url(../static/image/ppc01.jpg);
+}
+#sub-service-card4-image {
+    background: no-repeat center center/cover url(../static/image/web.jpg);
+}
+
 
 #benefits {
     width: 95%;
@@ -586,72 +678,112 @@ body {
 #benefits-image {
     background: no-repeat top center/cover url(../static/image/benefits.jpg);
 }
-#footer01 {
-    margin-top: 50px;
-    /* background: rgb(0, 0, 0); */
-    /* height: 400px; */
-    border-radius: 10px;
-    /* border: 2px solid rgb(255, 0, 0); */
-    text-align: center;
-    color: white;
-}
-.footer-menu-class {
-    display: flex;
-    /* border: 2px solid rgb(255, 0, 0); */
-    justify-content: space-around;
-    margin: 20px;
-}
-.footer-menu-card-class {
-    margin: 10px;
-    background: rgb(0, 0, 0);
-
-}
-.footer-card-image-class {
-    height: 100px;
-    width: 100px;
-    background: white;
-    margin: 5px;
-}
-#footer2-menu {
-    display: flex;
-    text-align: left ;
-    
-}
-.footer2-menu-class{
-margin-left: 20px;
-margin-right: 20px;
-}
-.footer2-menu-class ul li {
-    list-style: none;
-}
-#footer2-address {
-    display: flex;
-
-}
-
-.sub-footer2-class h4 {
-    margin: 10px;
-    margin-left: 0px;
-}
-#pcolor {
-    color:rgb(30,30,92) ;
-    font-weight: 600;
-}
-#footer-card1-image {
-    background: no-repeat center center/cover url(../static/image/home.png);
-}
-#footer-card2-image {
-    background: no-repeat center center/cover url(../static/image/about-us-icon-34428.jpg);
-}
-#footer-card3-image {
-    background: no-repeat center center/cover url(../static/image/work-icon-4455.jpg);
-}
-#footer-card4-image {
-    background: no-repeat center center/cover url(../static/image/home.png);
-}
 #ekwik-digital-difference-image-id2 {
     background: no-repeat center center/cover url(../static/image/service.jpg) ;
 }
 #ekwik-digital-difference-image-id1 {
     background: no-repeat center center/cover url(../static/image/diffrenet.jpg) ;
 }
+
+
+
+
+
+#footer-menu {
+    margin-top: 50px;
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.76);
+    color: white;
+    /* border: 2px solid red; */
+}
+.footer-menu-class {
+    /* border: 2px solid red; */
+    height: 300px;
+    width: 500px;
+    /* padding: 20px; */
+
+}
+.footer-menu-class ul li {
+    list-style: none;
+    margin: 10px;
+    transition: all 0.3s ease;
+}
+
+.footer-menu-class ul li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+
+}
+.footer-menu-class ul li:hover {
+    transform: scale(1.1);
+}
+.sub-footer-class h2 {
+    margin: 10px;
+    color: rgb(255, 159, 50);
+    font-size: 25px;
+    
+}
+.footer-menu-class h2 {
+    font-size: 25px;
+    margin: 10px;
+    color: rgb(255, 159, 50);
+    
+    
+}
+.sub-footer-class p {
+    margin: 10px;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    
+}
+.footer-menu-class p {
+    margin: 10px;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+}
+#footer-navbar {
+    width: 300px;
+}
+
+
+
+
+@media (max-width: 300px) {
+    * {
+       margin: 0;
+       padding: 0;
+    }
+   
+    #contact-nav {
+        display: block;
+        width: 1390px;
+        margin: 0;
+       padding: 0;
+       justify-content: center;
+       text-align: center;
+       align-items: center;
+       font-size: 1.25rem;
+   }
+   #contact-nav ul {
+       justify-content: center;
+       text-align: center;
+       align-items: center;
+   }
+   #service-menu {
+       font-size: 10px;
+       width: 1390px;
+   }
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   }
