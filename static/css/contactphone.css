@@ -28,6 +28,14 @@
         display: none;
     }
     
-
-
+    #google-map {
+        width: 100%;
+        margin: auto;
+    }
+    #contact-form p {
+        margin: 5px;
+    }
+    #section-contact  {
+        width: 100%;
+    }
 }

@@ -30,15 +30,16 @@ body {
     justify-content: space-evenly;
 }
 #image.inside-menu-section  {
-    background-image: url(../image);
+    background: no-repeat center center/cover url(../static/image/ekwik-logo.png);
     /* border: 2px solid red; */
-    width: 200px;
+    width: 250px;
     height: 80px;
+    margin-left: 50px;
 }
 #main-menu.inside-menu-section {
     width: 800px;
     height: 80px;
-    margin-left: 200px;
+    margin-left: 300px;
     padding-left: 200px;
     
 }
@@ -193,11 +194,12 @@ body {
 }
 
 #logo {
+    background: no-repeat center center/cover url(../static/image/ekwik-logo.png);
     position: relative;
-    left: 200px;
-    top: 50px;
-    border: 2px solid red;
-    height: 100px;
+    left: 150px;
+    top: 5px;
+    /* border: 2px solid red; */
+    height: 180px;
     width: 600px;
     display: none;
 }
@@ -294,4 +296,65 @@ display: none;
 #hamburger.is-active #bar3{
     transform: rotate(45deg) translate(-8px , -4px);
 
+}
+
+
+
+#footer-menu {
+    margin-top: 50px;
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.76);
+    color: white;
+    /* border: 2px solid red; */
+}
+.footer-menu-class {
+    /* border: 2px solid red; */
+    height: 300px;
+    width: 500px;
+    /* padding: 20px; */
+
+}
+.footer-menu-class ul li {
+    list-style: none;
+    margin: 10px;
+    transition: all 0.3s ease;
+}
+
+.footer-menu-class ul li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+
+}
+.footer-menu-class ul li:hover {
+    transform: scale(1.1);
+}
+.sub-footer-class h2 {
+    margin: 10px;
+    color: rgb(255, 159, 50);
+    font-size: 25px;
+    
+}
+.footer-menu-class h2 {
+    font-size: 25px;
+    margin: 10px;
+    color: rgb(255, 159, 50);
+    
+    
+}
+.sub-footer-class p {
+    margin: 10px;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    
+}
+.footer-menu-class p {
+    margin: 10px;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+}
+#footer-navbar {
+    width: 300px;
 }
