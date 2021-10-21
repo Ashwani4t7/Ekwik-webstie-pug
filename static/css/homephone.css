@@ -11,6 +11,8 @@
     }
     #phone-menu {
         display: block;
+        /* transition: all 0.5s ease; */
+
     }
     #divider {
         display: block;

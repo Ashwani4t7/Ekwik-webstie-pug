@@ -7,8 +7,11 @@
     font-family: 'Nunito', sans-serif;
 }
 
+
+
 body {
     background-color: rgb(207,236,224);
+    
 }
 
 
@@ -65,9 +68,143 @@ body {
 .contact-nav-color {
     color: rgb(0, 0, 0);
 }
+
+#phonenav {
+    background:rgb(207,236,224);
+    /* background-color: white; */
+    height: 200px;
+    display: none;
+}
+
+#logo {
+    background: no-repeat center center/cover url(../static/image/ekwik-logo.png);
+    position: relative;
+    left: 20px;
+    top: 30px;
+    /* border: 2px solid red; */
+    height: 130px;
+    width: 400px;
+    display: none;
+}
+#phone-menu {
+    position:absolute;
+    top: 200px;
+    left: 0%;
+    width: 100%;
+    height: 5200px;
+    z-index: 2;
+    padding-top: 100px;
+    /* background: linear-gradient(
+    #eacda3 , #d6ae7b); */
+    background: rgba(8, 8, 8, 0.897);
+    border-top: 2px solid black;
+    /* transition: all 0.5s ease; */
+    display: none;
+}
+#phone-menu.is-active {
+    /* transition: all 0.5s ease; */
+    left:0%;
+    /* display: none; */
+
+    visibility: hidden;
+}
+
+
+ #phone-menu ul {
+     margin: auto; 
+      padding: 10px;
+     position: relative;
+     justify-content: center;
+     text-align:justify;
+     align-items: center;
+     margin-bottom: 0px;
+     padding-bottom: 0px;
+     
+    }
+    #phone-menu ul li {
+        list-style: none;
+        position: relative;
+        margin: 10px;
+        top: -110px;
+        /* left: 50px; */
+        padding: 12px 16px;
+        margin-bottom: 0px;
+     padding-bottom: 0px;
+    }
+    #phone-menu ul li a {
+     margin-left: 25px;
+     text-decoration: none;
+     color: rgb(255, 255, 255);
+     font-size: 45px;
+     
+ }
+ 
+  #btn-service {
+      position: absolute;
+      top: 350px;
+      left: 20px;
+      /* border: 2px solid red; */
+     height: 80px;
+     width: 300px;
+     margin-left: 10px;
+    color: rgb(255, 255, 255);
+    background: transparent;
+    font-size: 50px;
+
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    border-bottom: 10px solid rgb(207,236,224);
+    
+}
+
+#hamburger {
+    position: absolute;
+    left: 850px;
+    top: 50px;
+    display: block;
+    width: 90px;
+    height: 100px;
+    cursor: pointer;
+
+    appearance: none; 
+    background: none;
+    border: none;
+    outline: none;
+    z-index: 5;
+}
+#hamburger .bar {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 10px;
+    background-color: rgb(0, 0, 0);
+    margin: 8px 0px;
+    transition: all 0.45s ease;
+    border-radius: 10px;
+}
+#hamburger #bar2 {
+    width: 60%;
+    margin-left: 40%;
+}
+#hamburger.is-active #bar1{
+    transform: rotate(-45deg) translate(-8px , 6px);
+
+}
+#hamburger.is-active #bar2{
+display: none;
+}
+#hamburger.is-active #bar3{
+    transform: rotate(45deg) translate(-8px , -4px);
+
+}
+
+ 
+
 #menu-section {
     display: flex;
     justify-content: space-evenly;
+    
 }
 #image.inside-menu-section  {
     background: no-repeat center center/cover url(../static/image/ekwik-logo.png);
@@ -133,6 +270,7 @@ body {
     border-radius: 10px;
    
 }
+
 .service-menu-sub-menu ul li {
     margin: 10px;
     padding: 10px;
@@ -227,10 +365,10 @@ body {
     visibility: visible;
 }
 
-#ourwork {
-    background: no-repeat center center/cover url(../static/image/ourwork03.jpg);
-    width: 100%;
-    height:600px;
+#digital-marketing-image {
+    background:no-repeat center center/cover url(../static/image/digital-marketing.jpg);
+    height:550px;
+    margin: auto;
 }
 
 
@@ -240,176 +378,7 @@ body {
 
 
 
-#phonenav {
-    background:rgb(207,236,224);
-    /* background-color: white; */
-    height: 200px;
-    display: none;
-}
 
-#logo {
-    background: no-repeat center center/cover url(../static/image/ekwik-logo.png);
-    position: relative;
-    left: 20px;
-    top: 30px;
-    /* border: 2px solid red; */
-    height: 130px;
-    width: 400px;
-    display: none;
-}
-#phone-menu {
-    position:absolute;
-    top: 200px;
-    left: 0%;
-    width: 100%;
-    height: 5200px;
-    z-index: 2;
-    padding-top: 100px;
-    /* background: linear-gradient(
-    #eacda3 , #d6ae7b); */
-    background: rgba(8, 8, 8, 0.897);
-    border-top: 2px solid black;
-    /* transition: all 0.5s ease; */
-    display: none;
-}
-#phone-menu.is-active {
-    /* transition: all 0.5s ease; */
-    left:0%;
-    /* display: none; */
-
-    visibility: hidden;
-}
-
-
- #phone-menu ul {
-     margin: auto; 
-      padding: 10px;
-     position: relative;
-     justify-content: center;
-     text-align:justify;
-     align-items: center;
-     margin-bottom: 0px;
-     padding-bottom: 0px;
-     
-    }
-    #phone-menu ul li {
-        list-style: none;
-        position: relative;
-        margin: 10px;
-        top: -110px;
-        /* left: 50px; */
-        padding: 12px 16px;
-        margin-bottom: 0px;
-     padding-bottom: 0px;
-    }
-    #phone-menu ul li a {
-     margin-left: 25px;
-     text-decoration: none;
-     color: rgb(255, 255, 255);
-     font-size: 45px;
-     
- }
-
- #phone-menu #services {
-    margin-left: 35px;
-    text-decoration: none;
-    color: rgb(0, 0, 0);
-    font-size: 40px;
- }
- #divider {
-     width: 80%;
-     border: 2px solid black;
-     border-radius: 20px;
-     height: 5px;
-     background-color: black;
-     margin-left: 35px;
-     display: none;
-    }
-    #hamburger {
-        position: absolute;
-        left: 850px;
-        top: 50px;
-        display: block;
-        width: 90px;
-        height: 100px;
-        cursor: pointer;
-    
-        appearance: none; 
-        background: none;
-        border: none;
-        outline: none;
-        z-index: 5;
-    }
-    #hamburger .bar {
-        content: "";
-        display: block;
-        width: 100%;
-        height: 10px;
-        background-color: rgb(0, 0, 0);
-        margin: 8px 0px;
-        transition: all 0.45s ease;
-        border-radius: 10px;
-    }
-    #hamburger #bar2 {
-        width: 60%;
-        margin-left: 40%;
-    }
-    
-#hamburger.is-active #bar1{
-    transform: rotate(-45deg) translate(-8px , 6px);
-
-}
-#hamburger.is-active #bar2{
-display: none;
-}
-#hamburger.is-active #bar3{
-    transform: rotate(45deg) translate(-8px , -4px);
-
-}
-
-#btn-service {
-    position: absolute;
-    top: 350px;
-    left: 20px;
-    /* border: 2px solid red; */
-   height: 80px;
-   width: 300px;
-   margin-left: 10px;
-  color: rgb(255, 255, 255);
-  background: transparent;
-  font-size: 50px;
-
-  outline: none;
-  border: none;
-  border-radius: 20px;
-  border-bottom: 10px solid rgb(207,236,224);
-  
-}
-
-.phone-service-class {
-    display: flex;
-    flex-direction: column;
-    display: none;
-    margin-bottom: 10px;
-}
-.phone-service-class h2 {
-    /* background: rgb(207,236,224); */
-    margin: 20px;
-    margin-left: 65px;
-    color: rgb(255, 255, 255);
-    font-size: 50px;
-    border-radius: 20px;
-    text-align: justify;
-    border-bottom: 10px solid rgb(117, 236, 187);
-}
-.phone--service  {
-    justify-content: center;
-    align-items: center;
-    margin-top: 100px;
-    margin-left: 50px;
-    display: none;
-    margin-bottom: -50px;
-}
 
 
 
@@ -444,6 +413,7 @@ display: none;
 }
 .footer-menu-class ul li:hover {
     transform: scale(1.1);
+    
 }
 .footer-menu-class ul li:hover a {
     color: rgb(255, 159, 50);
@@ -473,9 +443,14 @@ display: none;
     color: rgb(255, 255, 255);
     font-size: 18px;
 }
-#footer-navbar {
-    width: 300px;
-}
+
+
+
+
+
+
+
+
 
 #footer-ekwik .fab {
     font-size: 30px;
@@ -536,6 +511,9 @@ display: none;
 #developer span {
     color: rgb(255, 159, 50);
 }
+
+
+
 
 
 

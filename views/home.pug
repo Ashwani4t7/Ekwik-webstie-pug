@@ -1,7 +1,8 @@
 extends base.pug
 
 block script 
-    script(src="/static/js/jquery/jquery-3.6.0.min.js") 
+    script(src="/static/jquery/jquery-3.6.0.min.js") 
+    script(src="/static/jquery/main.js") 
     script(src="/static/js/main.js") 
     <script src="https://kit.fontawesome.com/3c86032974.js" crossorigin="anonymous"></script>
 
@@ -12,125 +13,6 @@ block style
                 
         
 block content 
-    //- nav#contact-nav 
-    //-     ul 
-    //-         li
-    //-             span.contact-nav-color | office no |
-    //-             | 1235689 
-    //-         li
-    //-             span.contact-nav-color | Mobile no |
-    //-             | 1235689 
-    //-         li
-    //-             span.contact-nav-color | Email |
-    //-             | 1235689 
-    //- section#menu-section 
-    //-     div#image.inside-menu-section   
-    //-     div#main-menu.inside-menu-section   
-    //-         ul 
-    //-             li #[a(href="/") Home]
-    //-             li #[a(href="/") About Us]
-    //-             li #[a(href="/") Our Work] 
-    //-             li #[a(href="/contact") Contact] 
-    //- div#service-menu
-    //-     div#Search-engine-optimization.service-menu-class
-    //-         h3 
-    //-             | <i class="fab fa-wpexplorer"></i> Search Engine Optimization
-    //-         div#Search-engine-optimization-Sub-menu.service-menu-sub-menu
-    //-             ul
-    //-                 li #[a(href="/") SEO Service]
-    //-                 li #[a(href="/") local SEO]
-    //-                 li #[a(href="/") E-Commerce SEO]
-    //-                 li #[a(href="/") Mobile SEO Services]
-    //-                 li #[a(href="/") Search Engine Optimization]
-    //-                 li #[a(href="/") Company]
-    //-     div#Packages.service-menu-class
-    //-         h3 
-    //-             | <i class="fab fa-wpexplorer"></i> Packages
-    //-         div#Packages-main-Sub-menu.service-menu-sub-menu
-    //-             div.Packages-Sub-menu
-    //-                 ul
-    //-                     li #[a(href="/") SEO Packages]
-    //-                     li #[a(href="/") SMO Packages]
-    //-                     li #[a(href="/") Local SEO Packages]
-    //-                     li #[a(href="/") Mobile SEO Packages]
-    //-                     li #[a(href="/") ORM Packages]
-    //-                     li #[a(href="/") CRO Packages]
-    //-             div.Packages-Sub-menu
-    //-                 ul
-    //-                     li #[a(href="/") PPC Packages]
-    //-                     li #[a(href="/") Design/ Development Packages]
-    //-                     li #[a(href="/") Content Writing Packages]
-    //-                     li #[a(href="/") App Store Packages]
-    //-                     li #[a(href="/") Link Buliding Packages]
-    //-                     li #[a(href="/") Content Marketing Packages]
-    //-             div.Packages-Sub-menu
-    //-                 ul
-    //-                     li #[a(href="/") Small Business SEO Packages]
-    //-                     li #[a(href="/") Digital Marketing Packages]
-    //-                     li #[a(href="/") Video Marketing Packages]
-    //-                     li #[a(href="/") SEO Pricing]
-    //-                     li #[a(href="/") Guest Posting Service]
-    //-     div#Reseller.service-menu-class
-    //-         h3 
-    //-             | <i class="fab fa-wpexplorer"></i> Reseller
-    //-         div#Reseller-Sub-menu.service-menu-sub-menu
-    //-             ul
-    //-                 li #[a(href="/") SEO Reseller]
-    //-                 li #[a(href="/") White labelled SEO]
-    //-                 li #[a(href="/") SEO Reseller Packages Plan]
-    //-                 li #[a(href="/") Outsource SEO India]
-                    
-    //-     div#Reputation-Management.service-menu-class
-    //-         h3 
-    //-             | <i class="fab fa-wpexplorer"></i> Reputation
-    //-         div#Reputation-Management-Sub-menu.service-menu-sub-menu
-    //-             ul
-    //-                 li #[a(href="/") Corporate Reputation Management]
-    //-     div#Development-Solutions.service-menu-class
-    //-         h3 
-    //-             | <i class="fab fa-wpexplorer"></i> Development Solution
-    //-         div#Development-main-Solutions.service-menu-sub-menu
-    //-             div.Development-Solutions-Sub-menu
-    //-                 ul
-    //-                     li #[a(href="/") Website Designing]
-    //-                     li #[a(href="/") Web Development]
-    //-                     li #[a(href="/") WordPress Development]
-    //-                     li #[a(href="/") Responsive Design]
-    //-                     li #[a(href="/") Cms Development]
-    //-                     li #[a(href="/") Custom PHP Development]
-    //-                     li #[a(href="/") Android APP Development]
-    //-             div.Development-Solutions-Sub-menu
-    //-                 ul
-    //-                     li #[a(href="/") Logo Designing]
-    //-                     li #[a(href="/") E-Commerce Development]
-    //-                     li #[a(href="/") Website Redesigning]
-    //-                     li #[a(href="/") Mobile APP Development]
-    //-                     li #[a(href="/") Magento Development]
-    //-                     li #[a(href="/") ASP Dot Net]
-    //-     div#Social-Media.service-menu-class
-    //-         h3 
-    //-             | <i class="fab fa-wpexplorer"></i> Social Media
-    //-         div#Social-Media-Sub-menu.service-menu-sub-menu
-    //-             ul
-    //-                 li #[a(href="/") Social Media Marketing]
-    //-                 li #[a(href="/") Youtube Marketing]
-    //-     div#Others.service-menu-class
-    //-         h3 
-    //-             | <i class="fab fa-wpexplorer"></i> Others
-    //-         div#Others-main.service-menu-sub-menu
-    //-             div.Others-Sub-menu
-    //-                 ul
-    //-                     li #[a(href="/") PPC Service]
-    //-                     li #[a(href="/") Conversion Optimization]
-    //-                     li #[a(href="/") APP Store Optimization]
-    //-                     li #[a(href="/") Link Buliding Services]
-                        
-    //-             div.Others-Sub-menu
-    //-                 ul
-    //-                     li #[a(href="/") SEO Marketing Agency]
-    //-                     li #[a(href="/") Mobile Website Design]
-    //-                     li #[a(href="/") Online Marketing Company]
-    //-                     li #[a(href="/") Search Engine Marketing Service]
     div#digital-marketing-image
     div#digital-marketing1
         div#digital-marketing1-image.sub-digital-marketing1
@@ -138,62 +20,22 @@ block content
             p Ekwik Digital is the best and top digital marketing company in India, working for years. Having more than 4500 satisfied clients and over 1200 active clients is not an easy task. But we made this possible with our high-quality services and transparent working model. The expert team of Ekwik Digital has put much effort and keeps putting in all the projects. Here you get a personalized marketing solution that will boost your sales and customer reach at the ultimate level.  
             p We are committed to providing quality web development, CRM, and digital marketing services. So, you can find your business needs, whether you are an individual, small or medium business. 
             p From affordable web development to SEO services, all are made considering your needs. Thus, if you want services from the best digital marketing company. Then you can surely tell your business goals to Ekwik's experts. With a vast expert team, you can have a dedicated professional. We have the facility to ensure our clients get the best digital marketing services under a tight budget. 
-            p Taking budget-friendly to advanced digital marketing services of Ekwik is easy. All you need to describe your needs and expectations before our marketing experts. 
         div#digital-marketing1-content.sub-digital-marketing1 
     div#card-container 
         div#card1.cards
             div#card1-image.cards-image
             h3 Digital Services
-            //- div#card1-image-sub-menu.card1-image-sub-menu-class
-                //- div.Others-Sub-menu
-                //-     ul
-                //-         li #[a(href="/") PPC Service]
-                //-         li #[a(href="/") Conversion Optimization]
-                //-         li #[a(href="/") APP Store Optimization]
-                //-         li #[a(href="/") Link Buliding Services]
-                        
-                //- div.Others-Sub-menu
-                //-     ul
-                //-         li #[a(href="/") SEO Marketing Agency]
-                //-         li #[a(href="/") Mobile Website Design]
-                //-         li #[a(href="/") Online Marketing Company]
-                //-         li #[a(href="/") Search Engine Marketing Service]
-            
+                     
         div#card2.cards
             div#card2-image.cards-image
             h3 Website Development
-            //- div#card2-image-sub-menu.card1-image-sub-menu-class
-                //- div.Others-Sub-menu
-                //-     ul
-                //-         li #[a(href="/") PPC Service]
-                //-         li #[a(href="/") Conversion Optimization]
-                //-         li #[a(href="/") APP Store Optimization]
-                //-         li #[a(href="/") Link Buliding Services]
-                        
-                //- div.Others-Sub-menu
-                //-     ul
-                //-         li #[a(href="/") SEO Marketing Agency]
-                //-         li #[a(href="/") Mobile Website Design]
-                //-         li #[a(href="/") Online Marketing Company]
-                //-         li #[a(href="/") Search Engine Marketing Service]
+           
             
         div#card3.cards
             div#card3-image.cards-image
             h3 App Development
-            //- div#card3-image-sub-menu.card1-image-sub-menu-class
-                //- div.Others-Sub-menu
-                //-     ul
-                //-         li #[a(href="/") PPC Service]
-                //-         li #[a(href="/") Conversion Optimization]
-                //-         li #[a(href="/") APP Store Optimization]
-                //-         li #[a(href="/") Link Buliding Services]
-                        
-                //- div.Others-Sub-menu
-                //-     ul
-                //-         li #[a(href="/") SEO Marketing Agency]
-                //-         li #[a(href="/") Mobile Website Design]
-                //-         li #[a(href="/") Online Marketing Company]
-                //-         li #[a(href="/") Search Engine Marketing Service]
+    
+           
     div#ekwik-digital-difference-id1.ekwik-digital-difference-class
         div#ekwik-digital-difference-image-id1.ekwik-digital-difference-image-class
         div#ekwik-digital-difference-content-id1.ekwik-digital-difference-content-class
@@ -234,7 +76,7 @@ block content
             p Our digital marketing services make us the top-rated digital marketing company in Delhi. It is because we have flexible and essential marketing packages. That will multiply your business leads in a few months.             p Finding the best digital marketing company is a tricky task. But now, it's easy for you because, at Ekwik, you get a dedicated project manager. 
             p If you are finding SEO services in Delhi, then stay with us. Because our best SEO expert knows what Google likes. Hence, they can bring massive traffic to your website organically.  
             p PPC is one of the best ways to generate leads in the short run. But you need the best digital marketing company like Ekwik. 
-        div#ekwik-digital-difference-image-id2.ekwik-digital-difference-image-class
+        div#ekwik-digital-difference-image-id22.ekwik-digital-difference-image-class
     
     
     
@@ -283,56 +125,3 @@ block content
             p 
                 span#pcolor So, are you ready to get web development, marketing, and SEO services in India? Check out our affordable packages for the best digital marketing services. You need our services as you deserve more leads than your competitor. 
         div#ekwik-digital-difference-image-id2.ekwik-digital-difference-image-class
- 
- 
-    //- footer#footer01
-    //-     div#footer-menu.footer-menu-class
-    //-         div#footer-menu-card1.footer-menu-card-class
-    //-             div#footer-card1-image.footer-card-image-class
-    //-             h4 HOME      
-    //-         div#footer-menu-card2.footer-menu-card-class
-    //-             div#footer-card2-image.footer-card-image-class
-    //-             h4 ABOUT US      
-    //-         div#footer-menu-card3.footer-menu-card-class
-    //-             div#footer-card3-image.footer-card-image-class
-    //-             h4 SERVICES      
-    //-         div#footer-menu-card4.footer-menu-card-class
-    //-             div#footer-card4-image.footer-card-image-class
-    //-             h4 CONTACT US      
-    //-         div#footer-menu-card4.footer-menu-card-class
-    //-             div#footer-card4-image.footer-card-image-class
-    //-             h4 CONTACT US      
-    //-         div#footer-menu-card4.footer-menu-card-class
-    //-             div#footer-card4-image.footer-card-image-class
-    //-             h4 CONTACT US      
-    //-         div#footer-menu-card4.footer-menu-card-class
-    //-             div#footer-card4-image.footer-card-image-class
-    //-             h4 CONTACT US      
-    //-         div#footer-menu-card4.footer-menu-card-class
-    //-             div#footer-card4-image.footer-card-image-class
-    //-             h4 CONTACT US      
-    //-         div#footer-menu-card4.footer-menu-card-class
-    //-             div#footer-card4-image.footer-card-image-class
-    //-             h4 CONTACT US      
-        //- div#footer2-menu 
-        //-     div#footer2-service.footer2-menu-class
-        //-         ul 
-        //-             li Search Engine Optimization
-        //-             li Packages
-        //-             li Reseller
-        //-             li Reputation 
-        //-             li Development Solution
-        //-             li Social Media
-        //-             li Others
-        //-     div#footer2-address.footer2-menu-class
-        //-         div#sub1-footer2.sub-footer2-class
-        //-             h4 Contact 
-        //-             p |Office no| <br> 9989898989  
-        //-             p |Mobile no| <br> 9989898989  
-        //-             p |Email| <br> 9989898989  
-        //-         div#sub2-footer2.sub-footer2-class
-        //-             h4 Address 
-        //-             p add content 
-
-                        
-    
