@@ -503,7 +503,6 @@ display: none;
 
 .copyright {
     display: flex;
-   border: 2px solid rgba(0, 0, 0, 0.76);
     height: 50px;
     background-color: rgba(0, 0, 0, 0.76);
     justify-content: space-around;
