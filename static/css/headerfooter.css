@@ -29,6 +29,11 @@ body {
     color: rgb(60, 106, 255);
 
 }
+#social .fa-instagram-square {
+    color: rgba(255, 1, 1, 0.719);
+
+}
+
 #social .fab{
     justify-content: center;
     align-items: center;

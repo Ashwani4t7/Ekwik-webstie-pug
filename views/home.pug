@@ -12,7 +12,33 @@ block style
         include ../static/css/homephone.css
                 
         
-block content 
+block content
+    div.slider
+        div.slides 
+            input(type="radio" name="radio-btn" id="radio1")
+            input(type="radio" name="radio-btn" id="radio2")
+            input(type="radio" name="radio-btn" id="radio3")
+            //- input(type="radio" name="radio-btn" id="radio4")
+            div.slide.first
+                img(src="../static/image/digital-marketing.jpg", alt="", srcset="")
+            div.slide.first
+                img(src="../static/image/img2.jpg", alt="", srcset="")
+            div.slide.first
+                //- img(src="../static/image/img3.jpg", alt="", srcset="")
+            div.slide.first
+                img(src="../static/image/img4.jpg", alt="", srcset="")
+        
+            div.navigation-auto
+                div.auto-btn1
+                div.auto-btn2
+                div.auto-btn3
+                
+            div.navigation-manual
+                label.manual-btn(for="radio1") 
+                label.manual-btn(for="radio2") 
+                label.manual-btn(for="radio3") 
+                
+
     div#digital-marketing1
         div#digital-marketing1-image.sub-digital-marketing1
             h2 Ekwik Digital 

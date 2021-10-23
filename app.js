@@ -4,7 +4,7 @@ const app = express();
 // var mongoose = require("mongoose");
 // const bodyparser =  require("body-parser");
 // mongoose.connect('mongodb://local/host/spgymcontact', { useNewUrlParser: true },{ useUnifiedTopology: true });
-const port = 9000;
+const port = 10000;
 // var contactSchema = new mongoose.Schema({
 //     name: String,
 //     address: String, 
@@ -12,7 +12,6 @@ const port = 9000;
 //     email: String,
 //     Textarea: String
 // });
-
 // var Contact = mongoose.model('Contact', contactSchema);
 
 app.use('/static', express.static('static'));
@@ -199,4 +198,5 @@ app.post('/contact', (req, res)=>{
 app.listen(port ,()=>{
     console.log('started')
 });
+
 
