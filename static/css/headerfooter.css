@@ -370,23 +370,6 @@ display: none;
 
 
 
-#trial {
-    display: flex;
-    height: 500px;
-    width: 80%;
-    margin: auto;
-    background: rgba(255, 255, 255, 0.822);
-    border-radius:20px;
-    box-shadow: 5px 5px 12px black;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
-
-#trial h1 {
-    border: 2px solid black;
-    border-radius: 20px;
-}
 
 
 

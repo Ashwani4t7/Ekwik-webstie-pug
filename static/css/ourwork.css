@@ -539,3 +539,38 @@ display: none;
 
 
 
+.copyright {
+    display: flex;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.76);
+    justify-content: space-around;
+    color: white;
+}
+#width {
+    background-color:transparent;
+    width: 80%;
+    margin: auto;
+    /* padding: 20px; */
+}
+#poweredby {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 20px;
+}
+#poweredby p {
+    margin-right: 5px;
+}
+#eklogo {
+    background: no-repeat center center/cover url(../static/image/ekwik-logo.png);
+    height: 50px;
+    width: 150px;
+}
+#a-logo {
+    background: no-repeat center center/contain url(../static/image/a-logo.png);
+    height: 50px;
+    width: 100px;
+    margin-top: -20px;
+    
+}

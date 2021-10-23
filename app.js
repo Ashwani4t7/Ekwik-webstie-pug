@@ -111,68 +111,77 @@ app.get('/seo-reseller-packages-plan', (req, res)=>{
 app.get('/outsource-seo-india', (req, res)=>{
     res.status(200).render('outsource-seo-india.pug');
 });
-app.get('/', (req, res)=>{
-    res.status(200).render('.pug');
+app.get('/corporate-reputation-managment', (req, res)=>{
+    res.status(200).render('corporate-reputation-managment.pug');
 });
-app.get('/', (req, res)=>{
-    res.status(200).render('.pug');
+app.get('/website-designing', (req, res)=>{
+    res.status(200).render('website-designing.pug');
 });
-app.get('/', (req, res)=>{
-    res.status(200).render('.pug');
+app.get('/web-development', (req, res)=>{
+    res.status(200).render('web-development.pug');
 });
-app.get('/', (req, res)=>{
-    res.status(200).render('.pug');
+app.get('/wordpress-development', (req, res)=>{
+    res.status(200).render('wordpress-development.pug');
 });
-app.get('/', (req, res)=>{
-    res.status(200).render('.pug');
+app.get('/responsive-design', (req, res)=>{
+    res.status(200).render('responsive-design.pug');
 });
-app.get('/', (req, res)=>{
-    res.status(200).render('.pug');
+app.get('/cms-development', (req, res)=>{
+    res.status(200).render('cms-development.pug');
 });
-app.get('/', (req, res)=>{
-    res.status(200).render('.pug');
+app.get('/custom-php-development', (req, res)=>{
+    res.status(200).render('custom-php-development.pug');
 });
-app.get('/', (req, res)=>{
-    res.status(200).render('.pug');
+app.get('/android-app-development', (req, res)=>{
+    res.status(200).render('android-app-development.pug');
 });
-app.get('/', (req, res)=>{
-    res.status(200).render('.pug');
+app.get('/logo-designing', (req, res)=>{
+    res.status(200).render('logo-designing.pug');
 });
-app.get('/', (req, res)=>{
-    res.status(200).render('.pug');
+app.get('/e-commerce-development', (req, res)=>{
+    res.status(200).render('e-commerce-development.pug');
 });
-app.get('/', (req, res)=>{
-    res.status(200).render('.pug');
+app.get('/website-redesigning', (req, res)=>{
+    res.status(200).render('website-redesigning.pug');
 });
-app.get('/', (req, res)=>{
-    res.status(200).render('.pug');
+app.get('/mobile-app-development', (req, res)=>{
+    res.status(200).render('mobile-app-development.pug');
 });
-app.get('/', (req, res)=>{
-    res.status(200).render('.pug');
+app.get('/magento-development', (req, res)=>{
+    res.status(200).render('magento-development.pug');
 });
-app.get('/', (req, res)=>{
-    res.status(200).render('.pug');
+app.get('/asp-dot-net', (req, res)=>{
+    res.status(200).render('asp-dot-net.pug');
 });
-app.get('/', (req, res)=>{
-    res.status(200).render('.pug');
+app.get('/social-media-marketing', (req, res)=>{
+    res.status(200).render('social-media-marketing.pug');
 });
-app.get('/', (req, res)=>{
-    res.status(200).render('.pug');
+app.get('/youtube-marketing', (req, res)=>{
+    res.status(200).render('youtube-marketing.pug');
 });
-app.get('/', (req, res)=>{
-    res.status(200).render('.pug');
+app.get('/ppc-service', (req, res)=>{
+    res.status(200).render('ppc-service.pug');
 });
-app.get('/', (req, res)=>{
-    res.status(200).render('.pug');
+app.get('/conversion-optimization', (req, res)=>{
+    res.status(200).render('conversion-optimization.pug');
 });
-app.get('/', (req, res)=>{
-    res.status(200).render('.pug');
+app.get('/app-store-optimization', (req, res)=>{
+    res.status(200).render('app-store-optimization.pug');
 });
-app.get('/', (req, res)=>{
-    res.status(200).render('.pug');
+app.get('/link-buliding-services', (req, res)=>{
+    res.status(200).render('link-buliding-services.pug');
 });
-app.get('/', (req, res)=>{
-    res.status(200).render('.pug');
+app.get('/seo-marketing-agency', (req, res)=>{
+    res.status(200).render('seo-marketing-agency.pug');
+});
+app.get('/mobile-website-design', (req, res)=>{
+    res.status(200).render('mobile-website-design.pug');
+});
+app.get('/online-marketing-company', (req, res)=>{
+    res.status(200).render('online-marketing-company.pug');
+});
+app.get('/search-engine-marketing-service', (req, res)=>{
+    res.status(200).render('search-engine-marketing-service.pug');
 });
 app.get('/', (req, res)=>{
     res.status(200).render('.pug');
