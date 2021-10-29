@@ -42,12 +42,12 @@ body {
 .service-menu-class:hover .fab {
     color: rgb(238, 29, 29);
 }
-#social .fab:hover {
-    transform: scale(1.1);
-    border: 1px solid black;
-    text-shadow: 2px 2px 5px rgb(241, 199, 100);
+#social a {
+    text-decoration: none;
 }
-
+#social .fab:hover {
+    text-shadow: 2px 2px 5px rgb(0, 0, 0);
+}
 
 #contact-nav {
     background-color: rgb(241, 199, 100);
@@ -110,7 +110,8 @@ body {
     color: black;
     font-size: 20px;
     font-weight: bold;
-}#main-menu.inside-menu-section ul li a:hover {
+}
+#main-menu.inside-menu-section ul li a:hover {
     color: rgb(241, 199, 100);
 }
 #service-menu {
@@ -306,11 +307,15 @@ body {
     margin-left: 0px;
     color: black;
     border: 2px solid black;
-    background-color: rgb(255,57,70);
+    background-color: rgba(255, 130, 57, 0.863);
     border-radius: 5px;
     font-size: 20px;
-    font-weight: 300;
+    font-weight: 900;
     cursor: pointer;
+    transition: all 0.3s ease;
+}
+#form-btn:hover {
+    transform: scale(1.1);
 }
 #contact-info {
     padding: 50px;

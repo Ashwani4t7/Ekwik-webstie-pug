@@ -45,8 +45,6 @@ body {
     color: rgb(238, 29, 29);
 }
 #social .fab:hover {
-    transform: scale(1.1);
-    border: 1px solid black;
     text-shadow: 2px 2px 5px rgb(241, 199, 100);
 }
 
@@ -474,9 +472,9 @@ display: none;
     font-size: 18px;
 }
 
-#footer-ekwik .fab {
-    font-size: 30px;
-    margin: 10px;
+#footer-ekwik a .fab {
+    font-size: 25px;
+    margin: 5px;
     transition: all 0.3s ease;
 }
 #footer-ekwik .fab:hover {

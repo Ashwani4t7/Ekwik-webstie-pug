@@ -42,8 +42,6 @@ body {
     color: rgb(238, 29, 29);
 }
 #social .fab:hover {
-    transform: scale(1.1);
-    border: 1px solid black;
     text-shadow: 2px 2px 5px rgb(241, 199, 100);
 }
 

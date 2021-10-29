@@ -1,3 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+}
 
 #digital-marketing-image {
     background:no-repeat top center/cover url(../static/image/seo-services.jpg);
@@ -115,3 +123,6 @@
     background: no-repeat center center/cover url(../static/image/hireus.jpg);
 }
 
+#social .fab:hover {
+    text-shadow: 2px 2px 5px rgb(0, 0, 0);
+}

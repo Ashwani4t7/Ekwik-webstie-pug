@@ -1,4 +1,14 @@
 @media screen and (max-width: 1300px) {
+    @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
+
+
+    * {
+        margin: 0;
+        padding: 0;
+        font-family: 'Nunito', sans-serif;
+    }
+        
+    
     /* Navbar section */
     #contact-nav {
      display: none;
