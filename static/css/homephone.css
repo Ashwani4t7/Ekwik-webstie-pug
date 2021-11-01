@@ -23,7 +23,7 @@
         z-index: 100;
         
     }
-    #digital-marketing-image {
+    #digital-marketing-image01 {
         background:no-repeat top center/cover url(../static/image/digital-marketing.jpg);
         height:550px;
         margin: auto;
@@ -63,7 +63,8 @@
         height: 800px;
     }
     #benefits-image {
-        height: 800px;
+        height: 720px;
+        background-position:center/cover;
     }
     #benefits-content {
         height: 680px;
@@ -78,9 +79,10 @@
         font-size: 25px;
     }
 
-
-
-
+    #service-card2 , #service-card4 {
+        margin-left: -50px;
+    }
+    
 
 
 

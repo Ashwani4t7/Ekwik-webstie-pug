@@ -9,7 +9,7 @@
 
 #digital-marketing-image {
     background:no-repeat top center/cover url(../static/image/seo-services.jpg);
-    height:550px;
+    height:450px;
     margin: auto;
 }
 
@@ -126,3 +126,5 @@
 #social .fab:hover {
     text-shadow: 2px 2px 5px rgb(0, 0, 0);
 }
+
+

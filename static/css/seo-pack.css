@@ -297,7 +297,7 @@ display: none;
 #Search-engine-optimization-Sub-menu {
     position: absolute;
     left: 100px;
-    top: 160px;
+    top: 178px;
     visibility: hidden;
 }
 #Search-engine-optimization:hover #Search-engine-optimization-Sub-menu{
@@ -307,8 +307,8 @@ display: none;
 #Packages-main-Sub-menu {
     display: flex;
     position: absolute;
-    left: 320px;
-    top: 160px;
+    left: 220px;
+    top: 178px;
     visibility: hidden;
 }
 #Packages:hover #Packages-main-Sub-menu {
@@ -317,8 +317,8 @@ display: none;
 #Reseller-Sub-menu {
     display: flex;
     position: absolute;
-    left: 520px;
-    top: 160px;
+    left: 420px;
+    top: 178px;
     visibility: hidden;
 }
 #Reseller:hover #Reseller-Sub-menu {
@@ -327,8 +327,8 @@ display: none;
 #Reputation-Management-Sub-menu {
     display: flex;
     position: absolute;
-    left: 720px;
-    top: 160px;
+    left: 550px;
+    top: 178px;
     visibility: hidden;
 }
 #Reputation-Management:hover #Reputation-Management-Sub-menu {
@@ -337,8 +337,8 @@ display: none;
 #Development-main-Solutions {
     display: flex;
     position: absolute;
-    left: 820px;
-    top: 160px;
+    left: 620px;
+    top: 178px;
     visibility: hidden;
 }
 #Development-Solutions:hover #Development-main-Solutions {
@@ -347,8 +347,8 @@ display: none;
 #Social-Media-Sub-menu {
     display: flex;
     position: absolute;
-    left: 1120px;
-    top: 160px;
+    left: 1000px;
+    top: 178px;
     visibility: hidden;
 }
 #Social-Media:hover #Social-Media-Sub-menu {
@@ -357,8 +357,8 @@ display: none;
 #Others-main {
     display: flex;
     position: absolute;
-    left: 1120px;
-    top: 160px;
+    left: 1000px;
+    top: 178px;
     visibility: hidden;
 }
 #Others:hover #Others-main {

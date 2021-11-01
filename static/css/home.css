@@ -155,9 +155,9 @@ body {
     align-items: center;
     text-align: center;
     background-color: rgb(207,236,224);
-    margin-right: 20px;
+    margin-right: 10px;
     height: 25px;
-    width: 40px;
+    width: 35px;
     font-size: 25px;
     border-radius: 5px;
     transition: all 0.3s ease;
@@ -184,7 +184,7 @@ body {
 }
 #contact-nav ul li {
     margin-left: 50px;
-    nav-right: 50px;
+    margin-right: -25px;
     padding: 10px;
 }
 .contact-nav-color {
@@ -331,7 +331,7 @@ display: none;
 #image.inside-menu-section  {
     background: no-repeat center center/cover url(../static/image/ekwik-logo.png);
     /* border: 2px solid red; */
-    width: 250px;
+    width: 300px;
     height: 80px;
     margin-left: 50px;
 }
@@ -419,7 +419,7 @@ display: none;
 #Search-engine-optimization-Sub-menu {
     position: absolute;
     left: 100px;
-    top: 160px;
+    top: 178px;
     visibility: hidden;
 }
 #Search-engine-optimization:hover #Search-engine-optimization-Sub-menu{
@@ -429,8 +429,8 @@ display: none;
 #Packages-main-Sub-menu {
     display: flex;
     position: absolute;
-    left: 320px;
-    top: 160px;
+    left: 220px;
+    top: 178px;
     visibility: hidden;
 }
 #Packages:hover #Packages-main-Sub-menu {
@@ -439,8 +439,8 @@ display: none;
 #Reseller-Sub-menu {
     display: flex;
     position: absolute;
-    left: 520px;
-    top: 160px;
+    left: 420px;
+    top: 178px;
     visibility: hidden;
 }
 #Reseller:hover #Reseller-Sub-menu {
@@ -449,8 +449,8 @@ display: none;
 #Reputation-Management-Sub-menu {
     display: flex;
     position: absolute;
-    left: 720px;
-    top: 160px;
+    left: 550px;
+    top: 178px;
     visibility: hidden;
 }
 #Reputation-Management:hover #Reputation-Management-Sub-menu {
@@ -459,8 +459,8 @@ display: none;
 #Development-main-Solutions {
     display: flex;
     position: absolute;
-    left: 820px;
-    top: 160px;
+    left: 620px;
+    top: 178px;
     visibility: hidden;
 }
 #Development-Solutions:hover #Development-main-Solutions {
@@ -469,8 +469,8 @@ display: none;
 #Social-Media-Sub-menu {
     display: flex;
     position: absolute;
-    left: 1120px;
-    top: 160px;
+    left: 1000px;
+    top: 178px;
     visibility: hidden;
 }
 #Social-Media:hover #Social-Media-Sub-menu {
@@ -479,8 +479,8 @@ display: none;
 #Others-main {
     display: flex;
     position: absolute;
-    left: 1120px;
-    top: 160px;
+    left: 1000px;
+    top: 178px;
     visibility: hidden;
 }
 #Others:hover #Others-main {
@@ -490,7 +490,7 @@ display: none;
 
 #digital-marketing1 {
     display: flex;
-    height: 500px;
+    height: 550px;
     width: 90%;
     margin: auto;
     margin-top: 40px;
@@ -620,6 +620,7 @@ display: none;
 
 .service-card-s-class {
     display: flex;
+    margin-left: -30px;
 }
 
 
