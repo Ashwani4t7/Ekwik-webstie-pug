@@ -347,7 +347,7 @@ display: none;
 #Social-Media-Sub-menu {
     display: flex;
     position: absolute;
-    left: 1000px;
+    left: 1150px;
     top: 178px;
     visibility: hidden;
 }
@@ -357,7 +357,7 @@ display: none;
 #Others-main {
     display: flex;
     position: absolute;
-    left: 1000px;
+    left: 1100px;
     top: 178px;
     visibility: hidden;
 }
@@ -559,4 +559,10 @@ display: none;
     display: none;
     margin-bottom: -50px;
 }
+
+
+
+
+
+
 

@@ -572,3 +572,27 @@ display: none;
     margin-top: -20px;
     
 }
+#footer-service  .fab {
+    font-size: 30px;
+    margin: 5px;
+    transition: all 0.3s ease;
+}
+#footer-service .fab:hover {
+    transform: scale(1.2);
+}
+#footer-service .fa-facebook-square {  
+    color: rgb(104, 139, 255); 
+}
+#footer-service .fa-whatsapp-square {
+    color: rgb(62, 221, 144);    
+}
+#footer-service .fa-youtube-square {
+    color: rgb(255,1,1);    
+}
+#footer-service .fa-linkedin {
+    color: rgb(104, 139, 255);
+
+}
+#footer-navbar {
+    width: 300px;
+}

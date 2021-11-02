@@ -9,7 +9,7 @@
 
 #digital-marketing-image {
     background:no-repeat top center/cover url(../static/image/seo-services.jpg);
-    height:450px;
+    height:650px;
     margin: auto;
 }
 
@@ -35,11 +35,12 @@
     transform: scale(1.01);
 }
 .section-1-class {
-    height: 500px;
+    height: 450px;
     width: 50%;
     text-align: justify;
     /* border: 2px solid red; */
 }
+
 #section-1-content h2 {
     margin: 20px;
     font-size: 50px;
@@ -50,7 +51,7 @@
     font-size: 18px;
 }
 #section-1-image {
-    background:no-repeat center center/cover url(../static/image/seo-service-1.jpg);
+    background: no-repeat center center/cover url(../static/image/seo-service-1.jpg);
 }
 
 
@@ -126,5 +127,7 @@
 #social .fab:hover {
     text-shadow: 2px 2px 5px rgb(0, 0, 0);
 }
-
+#footer-service li:nth-of-type(8){
+    visibility: hidden;
+}
 

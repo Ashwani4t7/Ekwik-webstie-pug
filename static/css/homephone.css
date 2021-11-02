@@ -23,10 +23,23 @@
         z-index: 100;
         
     }
+
+    #benefits-content ul {
+        margin-top: 50px;
+    }
     #digital-marketing-image01 {
         background:no-repeat top center/cover url(../static/image/digital-marketing.jpg);
         height:550px;
         margin: auto;
+    }
+    #digital-marketing1-image p {
+        font-size: 22px;
+    }
+    #ekwik-digital-difference-content-id1 p {
+        font-size: 20.5px;
+    }
+    #ekwik-digital-difference-content-id2 p {
+        font-size: 20px;
     }
     
     .slider {
@@ -130,4 +143,106 @@
         display: none;
     }
 
+    #layout-section-1 > .section-1-class > p {
+        font-size: 18px;
+    }
+    #layout-section-2 .section-2-content-class > p {
+        font-size: 18px;
+    }
+    #layout-section-1 {
+        flex-direction:column-reverse;
+        height: max-content;
+        width:max-content ;
+        width: 90%;
+    }
+    #section-1-content {
+        margin: 0px;
+        width: 100%;
+        height: max-content;
+    }
+    .section-2-content-class > h2{
+        text-align: center;
+    }
+    .section-1-class > h2{
+        text-align: center;
+    }
+    #section-1-image {
+        margin: 0px;
+        width: 100%;
+        
+    }
+    #layout-section-2 {
+        flex-direction:column;
+        height: max-content;
+        width:max-content ;
+        width: 90%;
+    }
+    #section-2-content {
+        margin: 0px;
+        width: 97%;
+        height: max-content;
+        text-align: justify;
+    }
+    #section-2-image {
+        margin: 0px;
+        width: 100%;
+        height: 600px;
+        
+    }
+    #layout-section-3 {
+        flex-direction:column-reverse;
+        height: max-content;
+        width:max-content ;
+        width: 90%;
+    }
+    #section-3-content {
+        margin: 0px;
+        width: 97%;
+        height: max-content;
+        text-align: justify;
+    }
+    #section-3-image {
+        margin: 0px;
+        width: 100%;
+        height: 600px;
+        
+    }
+    #footer-service li:nth-of-type(8){
+       visibility: visible;
+    }
+    #footer-ekwik p:nth-of-type(2) {
+        visibility: hidden;
+    }
+    #section-contact {
+        flex-direction: column;
+        width:min-content;
+        justify-content: center;
+        align-items: center;
+    }
+    #contact-info {
+        width: 600px;
+    }
+    #contact-info h1 {
+        margin: 0px;
+        font-size: 35px;
+    }
+    #contact-info p {
+        font-size: 18px;
+    }
+    #contact-form {
+        width: 600px;
+        margin-left: 45px;
+    }
+    
+    #contact-form h1 {
+        font-size: 35px;
+    }
+    #contact-form p {
+        font-size: 18px;
+    }
+
 }
+
+
+
+

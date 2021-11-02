@@ -12,11 +12,12 @@
 
 
 
-
 body {
     background-color: rgb(207,236,224);
     
 }
+
+
 
 
 
@@ -136,17 +137,17 @@ body {
 
 
 
-#social .fa-facebook-square {  
+#social  .fa-facebook-square {  
     color: rgb(60, 106, 255);
     margin-left: 200px;  
 }
-#social .fa-whatsapp-square {
+#social  .fa-whatsapp-square {
     color: rgb(16, 161, 91);    
 }
-#social .fa-youtube {
+#social  .fa-youtube {
     color: rgb(255,1,1);    
 }
-#social .fa-linkedin {
+#social  .fa-linkedin {
     color: rgb(60, 106, 255);
     
 }
@@ -213,7 +214,7 @@ body {
     top: 200px;
     left: 0%;
     width: 100%;
-    height: 5200px;
+    height: 5750px;
     z-index: 2;
     padding-top: 100px;
     /* background: linear-gradient(
@@ -892,7 +893,7 @@ display: none;
     font-size: 18px;
 }
 #benefits-image {
-    background: no-repeat top center/cover url(../static/image/Statistics.jpg);
+    background: no-repeat top center/cover url(../static/image/4117344.jpg);
 }
 #ekwik-digital-difference-image-id2 {
     background: no-repeat top center/cover url(../static/image/hireus.jpg) ;
@@ -977,7 +978,8 @@ display: none;
 
 
 
-#footer-ekwik .fab {
+
+#footer-ekwik  .fab {
     font-size: 30px;
     margin: 10px;
     transition: all 0.3s ease;
@@ -995,6 +997,27 @@ display: none;
     color: rgb(255,1,1);    
 }
 #footer-ekwik .fa-linkedin {
+    color: rgb(104, 139, 255);
+}
+
+#footer-service  .fab {
+    font-size: 30px;
+    margin: 5px;
+    transition: all 0.3s ease;
+}
+#footer-service .fab:hover {
+    transform: scale(1.2);
+}
+#footer-service .fa-facebook-square {  
+    color: rgb(104, 139, 255); 
+}
+#footer-service .fa-whatsapp-square {
+    color: rgb(62, 221, 144);    
+}
+#footer-service .fa-youtube-square {
+    color: rgb(255,1,1);    
+}
+#footer-service .fa-linkedin {
     color: rgb(104, 139, 255);
 
 }
@@ -1081,5 +1104,9 @@ display: none;
     margin-left: 50px;
     display: none;
     margin-bottom: -50px;
+}
+
+#footer-service li:nth-of-type(8){
+    visibility: hidden;
 }
 
