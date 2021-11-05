@@ -1,0 +1,12 @@
+#digital-marketing-image {
+    background: no-repeat center center/contain url(../static/image/548964.png);
+}
+#section-1-image {
+    background: no-repeat center center/cover url(../static/image/21249.jpg);
+}
+#section-2-image {
+    background: no-repeat center center/cover url(../static/image/10.png);
+}
+#section-3-image {
+    background: no-repeat top center/cover url(../static/image/18907.jpg);
+}

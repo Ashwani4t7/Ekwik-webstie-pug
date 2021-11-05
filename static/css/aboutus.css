@@ -14,7 +14,7 @@ body {
 
 #social .fa-facebook-square {  
     color: rgb(60, 106, 255);
-    margin-left: 200px;  
+    margin-left: 100px;  
 }
 #social .fa-whatsapp-square {
     color: rgb(16, 161, 91);    
@@ -58,7 +58,7 @@ body {
 }
 #contact-nav ul li {
     margin-left: 50px;
-    margin-right: -25px;
+    margin-right: -50px;
     padding: 10px;
 }
 .contact-nav-color {

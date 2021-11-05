@@ -14,11 +14,17 @@ body {
     
 }
 
+#contact-nav ul li .contact-nav-color {
+    font-weight: 700;
+}
+#contact-nav ul li  {
+    font-weight: 700;
+}
 
 
 #social .fa-facebook-square {  
     color: rgb(60, 106, 255);
-    margin-left: 200px;  
+    margin-left: 100px;  
 }
 #social .fa-whatsapp-square {
     color: rgb(16, 161, 91);    
@@ -49,7 +55,6 @@ body {
     text-shadow: 2px 2px 5px rgb(241, 199, 100);
 }
 
-
 #contact-nav {
     background-color: rgb(241, 199, 100);
     color: rgb(0, 0, 0);
@@ -62,7 +67,7 @@ body {
 }
 #contact-nav ul li {
     margin-left: 50px;
-    margin-right: -25px;
+    margin-right: -50px;
     padding: 10px;
 }
 .contact-nav-color {
@@ -347,7 +352,7 @@ display: none;
 #Social-Media-Sub-menu {
     display: flex;
     position: absolute;
-    left: 1150px;
+    left: 1020px;
     top: 178px;
     visibility: hidden;
 }
@@ -357,7 +362,7 @@ display: none;
 #Others-main {
     display: flex;
     position: absolute;
-    left: 1100px;
+    left: 900px;
     top: 178px;
     visibility: hidden;
 }

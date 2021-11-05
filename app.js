@@ -182,6 +182,15 @@ app.get('/online-marketing-company', (req, res)=>{
 app.get('/search-engine-marketing-service', (req, res)=>{
     res.status(200).render('search-engine-marketing-service.pug');
 });
+app.get('/portfolio', (req, res)=>{
+    res.status(200).render('portfolio.pug');
+});
+app.get('/', (req, res)=>{
+    res.status(200).render('.pug');
+});
+app.get('/', (req, res)=>{
+    res.status(200).render('.pug');
+});
 app.get('/', (req, res)=>{
     res.status(200).render('.pug');
 });

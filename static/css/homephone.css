@@ -240,6 +240,49 @@
     #contact-form p {
         font-size: 18px;
     }
+    #portfolio {
+        display: block;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    #explore{
+        position: absolute;
+        left: 175px;
+        top: 5025px;
+    }
+    #explore1{
+        position: absolute;
+        left: 175px;
+        top: 5115px;
+    }
+    #explore2{
+        position: absolute;
+        left: 175px;
+        top: 5205px;
+    }
+    #explore3{
+        position: absolute;
+        left: 175px;
+        top: 5295px;
+    }
+    .port {
+        margin-bottom: 20px ;
+    }
+    #portfolio-heading {
+        position: absolute;
+        top: 4876px;
+        margin-bottom: 10px;
+    }
+    #portfolio-image {
+        position: absolute;
+        background:no-repeat center center/cover url(../static/image/65431.jpg);
+        left: 400px;
+        height: 350px;
+        width: 500px;
+        padding: 10px;
+    }
 
 }
 

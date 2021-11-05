@@ -26,6 +26,9 @@ $(document).ready(function(){
     $('#others').on('click', function() {
         $('#phone-others-service').toggle();
     });
+    $('#menu-section').on('hover', function() {
+        $('#Our-work-list').css("visibility", "visible");
+    });
 });
 
 });

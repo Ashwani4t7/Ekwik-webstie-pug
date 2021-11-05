@@ -17,10 +17,6 @@ body {
     
 }
 
-
-
-
-
 .slider{
     width: 100%;
     height: 600px;
@@ -129,7 +125,12 @@ body {
 
 
 
-
+#contact-nav ul li .contact-nav-color {
+    font-weight: 700;
+}
+#contact-nav ul li  {
+    font-weight: 700;
+}
 
 #contact-nav > #social{
     margin-left: 0px;
@@ -139,7 +140,7 @@ body {
 
 #social  .fa-facebook-square {  
     color: rgb(60, 106, 255);
-    margin-left: 200px;  
+    margin-left: 100px;  
 }
 #social  .fa-whatsapp-square {
     color: rgb(16, 161, 91);    
@@ -185,7 +186,7 @@ body {
 }
 #contact-nav ul li {
     margin-left: 50px;
-    margin-right: -25px;
+    margin-right: -50px;
     padding: 10px;
 }
 .contact-nav-color {
@@ -849,7 +850,7 @@ display: none;
 #benefits h1 {
     /* border: 2px solid black; */
     /* background:rgb(255, 255, 255); */
-    color: black;
+    color: rgb(255, 97, 49);
     margin: 10px;
     height: 40px;
     justify-content: center;
@@ -857,6 +858,7 @@ display: none;
     text-align: center;
     padding: 10px;
     border-radius:10px;
+    font-size: 40px;
   
    
 }
@@ -904,6 +906,303 @@ display: none;
 #ekwik-digital-difference-image-id22 {
     background: no-repeat center center/cover url(../static/image/bestservice.jpg) ;
 }
+
+
+#portfolio-heading {
+    width: 99%;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 38px;
+}
+
+#portfolio-heading h1 {
+    color:rgb(255, 97, 49) ;
+}
+
+
+#portfolio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid red; */
+    justify-content: space-around;
+    width: 80%;
+    margin: auto;
+    height: 300px;
+}
+
+.port{
+    display: flex;
+    /* border: 2px solid red; */
+    width: 300px;
+    align-items: center;
+    transition: all 0.5s ease;
+}
+
+.sub-port {
+   height: 70px;
+    width: 120px;
+    background-color: rgb(241,199,100);
+    color: black;
+}
+#sub-port1,
+#sub-port3,
+#sub-port5,
+#sub-port7{
+    border-top-left-radius:20px;
+    border-bottom-left-radius:20px;
+}
+
+#sub-port1 {
+    display: flex;
+    justify-content: right;
+    align-content: center;
+    align-items: center;
+    transition: all 0.5s ease;
+    position: relative;
+    left: 0px;
+    box-shadow: 1px 1px 5px rgb(241,199,100);
+}
+#sub-port2 {
+    display: flex;
+    justify-content:left;
+    align-content: center;
+    align-items: center;
+    transition: all 0.5s ease;
+    position: relative;
+    left: 0px;
+    box-shadow: 1px 1px 5px rgb(241,199,100);
+}
+
+#sub-port3 {
+    display: flex;
+    justify-content: right;
+    align-content: center;
+    align-items: center;
+    transition: all 0.5s ease;
+    position: relative;
+    left: 0px;
+    box-shadow: 1px 1px 5px rgb(241,199,100);
+}
+#sub-port4 {
+    display: flex;
+    justify-content:left;
+    align-content: center;
+    align-items: center;
+    transition: all 0.5s ease;
+    position: relative;
+    left: 0px;
+    box-shadow: 1px 1px 5px rgb(241,199,100);
+}
+#sub-port5 {
+    display: flex;
+    justify-content: right;
+    align-content: center;
+    align-items: center;
+    transition: all 0.5s ease;
+    position: relative;
+    left: 0px;
+    box-shadow: 1px 1px 5px rgb(241,199,100);
+}
+#sub-port6 {
+    display: flex;
+    justify-content:left;
+    align-content: center;
+    align-items: center;
+    transition: all 0.5s ease;
+    position: relative;
+    left: 0px;
+    box-shadow: 1px 1px 5px rgb(241,199,100);
+}
+#sub-port7 {
+    display: flex;
+    justify-content: right;
+    align-content: center;
+    align-items: center;
+    transition: all 0.5s ease;
+    position: relative;
+    left: 0px;
+    box-shadow: 1px 1px 5px rgb(241,199,100);
+}
+#sub-port8 {
+    display: flex;
+    justify-content:left;
+    align-content: center;
+    align-items: center;
+    transition: all 0.5s ease;
+    position: relative;
+    left: 0px;
+    box-shadow: 1px 1px 5px rgb(241,199,100);
+}
+
+#port1:hover
+#sub-port1{
+    transition: all 0.5s ease;
+    position: relative;
+    left: -45px;
+    box-shadow: 5px 5px 12px black;
+}
+#port1:hover
+#sub-port2{
+    position: relative;
+    left: 45px;
+    box-shadow: 5px 5px 12px black;
+}
+#port2:hover
+#sub-port3{
+    transition: all 0.5s ease;
+    position: relative;
+    left: -45px;
+    box-shadow: 5px 5px 12px black;
+}
+#port2:hover
+#sub-port4{
+    position: relative;
+    left: 45px;
+    box-shadow: 5px 5px 12px black;
+}
+#port3:hover
+#sub-port5{
+    transition: all 0.5s ease;
+    position: relative;
+    left: -45px;
+    box-shadow: 5px 5px 12px black;
+}
+#port3:hover
+#sub-port6{
+    position: relative;
+    left: 45px;
+    box-shadow: 5px 5px 12px black;
+}
+#port4:hover
+#sub-port7{
+    transition: all 0.5s ease;
+    position: relative;
+    left: -45px;
+    box-shadow: 5px 5px 12px black;
+}
+#port4:hover
+#sub-port8{
+    position: relative;
+    left: 45px;
+    box-shadow: 5px 5px 12px black;
+}
+
+
+
+
+
+
+
+
+
+#sub-port2,
+#sub-port4,
+#sub-port6,
+#sub-port8{
+    border-top-right-radius:20px;
+    border-bottom-right-radius:20px;
+}
+
+
+
+
+
+#explore{
+    position: absolute;
+    left: 229px;
+}
+#explore1{
+    position: absolute;
+    left: 533px;
+}
+#explore2{
+    position: absolute;
+    left: 837px;
+}
+#explore3{
+    position: absolute;
+    left: 1140px;
+}
+
+
+
+.explore {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 89px;
+    height: 50px;
+    background-color: black;
+    z-index: -5;
+}
+.explore h3 a {
+    text-decoration: none;
+    color: rgb(241,199,100);
+    
+}
+
+.explore {
+    z-index: -1000;
+    transition: all 0.5s ease;
+}
+
+#port1:hover #explore{
+    transition: all 0.5s ease;
+    z-index: 20;
+}
+#port2:hover #explore1{
+    transition: all 0.5s ease;
+    z-index: 20;
+}
+#port3:hover #explore2{
+    transition: all 0.5s ease;
+    z-index: 20;
+}
+#port4:hover #explore3{
+    transition: all 0.5s ease;
+    z-index: 20;
+}
+
+#Our-work-list {
+    position: absolute;
+    top: 115px;
+    left: 1035px;
+    height:250px;
+    width:200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    visibility: hidden;
+}
+#Our-work-list ul {
+    background-color: rgb(241,199,100);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin-left: 0px;
+    border-radius:20px;
+} 
+#Our-work-list ul li{
+    width:150px;
+    margin-left: 0px;
+    list-style: none;
+} 
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1109,4 +1408,5 @@ display: none;
 #footer-service li:nth-of-type(8){
     visibility: hidden;
 }
+
 

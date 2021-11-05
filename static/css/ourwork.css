@@ -12,9 +12,20 @@ body {
 }
 
 
+#contact-nav ul li .contact-nav-color {
+    font-weight: 700;
+}
+#contact-nav ul li  {
+    font-weight: 700;
+}
+
+#contact-nav > #social{
+    margin-left: 0px;
+}
+
 #social .fa-facebook-square {  
     color: rgb(60, 106, 255);
-    margin-left: 200px;  
+    margin-left: 100px;  
 }
 #social .fa-whatsapp-square {
     color: rgb(16, 161, 91);    
@@ -32,7 +43,7 @@ body {
     text-align: center;
     background-color: rgb(207,236,224);
     margin-right: 10px;
-    height: 26px;
+    height: 25px;
     width: 35px;
     font-size: 25px;
     border-radius: 5px;
@@ -57,7 +68,7 @@ body {
 }
 #contact-nav ul li {
     margin-left: 50px;
-    margin-right: -25px;
+    margin-right: -50px;
     padding: 10px;
 }
 .contact-nav-color {

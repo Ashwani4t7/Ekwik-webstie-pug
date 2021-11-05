@@ -13,6 +13,13 @@
     margin: auto;
 }
 
+#contact-nav ul li .contact-nav-color {
+    font-weight: 700;
+}
+#contact-nav ul li  {
+    font-weight: 700;
+}
+
 #social a {
     text-decoration: none;
 
