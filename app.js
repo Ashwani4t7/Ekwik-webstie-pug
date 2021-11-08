@@ -185,11 +185,26 @@ app.get('/search-engine-marketing-service', (req, res)=>{
 app.get('/portfolio', (req, res)=>{
     res.status(200).render('portfolio.pug');
 });
-app.get('/', (req, res)=>{
-    res.status(200).render('.pug');
+app.get('/seo-packages', (req, res)=>{
+    res.status(200).render('seo-packages.pug');
 });
-app.get('/', (req, res)=>{
-    res.status(200).render('.pug');
+app.get('/website-designing', (req, res)=>{
+    res.status(200).render('website-designing.pug');
+});
+app.get('/android-app-development', (req, res)=>{
+    res.status(200).render('android-app-development.pug');
+});
+app.get('/seo-marketing-agency', (req, res)=>{
+    res.status(200).render('seo-marketing-agency.pug');
+});
+app.get('/smo-packages', (req, res)=>{
+    res.status(200).render('smo-packages.pug');
+});
+app.get('/ppc-service', (req, res)=>{
+    res.status(200).render('ppc-service.pug');
+});
+app.get('/web-development', (req, res)=>{
+    res.status(200).render('web-development.pug');
 });
 app.get('/', (req, res)=>{
     res.status(200).render('.pug');

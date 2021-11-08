@@ -580,10 +580,10 @@ display: none;
     background: no-repeat center center/cover url(../static/image/digitalmarketing.jpg);
 }
 #card2-image {
-    background: no-repeat center center/cover url(../static/image/webdevelopment.jpg);
+    background: no-repeat center center/cover url(../static/image/19362653.jpg);
 }
 #card3-image {
-    background: no-repeat center center/cover url(../static/image/seo.jpg);
+    background: no-repeat center center/cover url(../static/image/4420086.jpg);
 }
 #section123 {
     height: 1000px;
@@ -829,6 +829,20 @@ display: none;
 #sub-service-card4-image {
     background: no-repeat center center/cover url(../static/image/web.jpg);
 }
+
+.cards h3 a {
+   text-decoration: none;
+    color: black;
+    font-size: 25px;
+}
+.service-card-class h2 a {
+   text-decoration: none;
+    color: black;
+}
+
+
+
+
 
 
 #benefits {
