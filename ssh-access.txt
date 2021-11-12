@@ -1,0 +1,7 @@
+Ubuntu20.04 machine
+username: root
+ssh ip : 185.210.144.237 
+ssh port : 22
+access comand : ssh root@185.210.144.237
+access password: Ubuntu2004Ekwik@#!
+IPV6: 2a02:4780:3:3:7c11:74e1:6fd7:7886

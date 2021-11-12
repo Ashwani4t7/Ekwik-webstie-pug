@@ -98,6 +98,26 @@
     }
     
 
+    #faqs {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 30px;
+        width: 90%;
+        margin: auto;
+        margin-top: 100px; 
+    }
+    
+    .faq{
+        margin-top: 50px;
+        width: 100%;
+    }
+    .q h4 {
+        font-size: 40px;
+
+    }
+
 
 
 
@@ -250,22 +270,22 @@
 
     #explore{
         position: absolute;
-        left: 175px;
+        left: 153px;
         top: 5025px;
     }
     #explore1{
         position: absolute;
-        left: 175px;
+        left: 153px;
         top: 5115px;
     }
     #explore2{
         position: absolute;
-        left: 175px;
+        left: 153px;
         top: 5205px;
     }
     #explore3{
         position: absolute;
-        left: 175px;
+        left: 153px;
         top: 5295px;
     }
     .port {

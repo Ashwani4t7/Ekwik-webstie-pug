@@ -1,0 +1,106 @@
+#digital-marketing-image {
+    height: 600px;
+    background: no-repeat center center/cover url(../static/image/3014541.jpg);
+}
+#main-heading {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#btn-div{
+    width: max-content;
+    margin: auto;
+}
+#btn-div button {
+    margin: 6px;
+    font-size: 20px;
+    margin-left: 10px;
+    padding: 10px;
+    border: 1px solid black;
+    outline: none;
+    background: rgba(255, 192, 74, 0.795);
+    transition: all 0.5s ease;
+    
+    
+}
+#btn-div button:hover {
+    transform: scale(1.1);
+    box-shadow: 2px 2px 5px rgb(0, 0, 0);
+    border: none;
+    background: rgb(255, 192, 74);
+    border-radius: 10px;
+     
+}
+
+.project-section {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.projects {
+    height: 400px;
+    width: 300px;
+   background: coral;
+    margin: 20px;
+    justify-content: center;
+    text-align: center;
+    border-radius: 10px;
+    
+
+}
+.projects h1 {
+    margin:5px;
+}
+.projects h3 {
+    margin:5px;
+}
+.projects .img{
+
+    transition: all 0.5s ease;
+}
+.projects #project-name{
+
+    transition: all 0.5s ease;
+}
+.projects:hover .img {
+    transform: scale(1.08);
+    transition: all 0.5s ease;
+}
+.projects:hover #project-name {
+    transform: scale(1.08);
+    transition: all 0.5s ease;
+    text-shadow: 2px 2px 5px white;
+}
+.project-btn {
+    height: 40px;
+    width: 120px;
+    border-radius: 10px;
+    background: white;
+    outline: none;
+    transition: all 0.5s ease;
+    border: 2px solid black;
+    margin: 5px;
+}
+.project-btn:hover {
+    transform: scale(1.08);
+    background:rgb(255, 192, 74) ;
+}
+.project-btn a {
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.image {
+    height: 220px;
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 10px black;
+    background-color: coral;
+    transition: all 0.5s ease;
+
+}

@@ -1,0 +1,27 @@
+@media screen and (max-width: 1300px) {
+    @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
+
+.project-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.projects {
+    height: 700px;
+    width: 550px;
+    font-size: 35px;
+    margin-top: 50px;
+}
+.image{
+    height: 400px;
+    width: 500px;
+    margin-top: -25px;
+}
+.project-btn a {
+    font-size: 35px;
+}
+.project-btn {
+    height: 50px;
+    width: 150px;
+}
+}

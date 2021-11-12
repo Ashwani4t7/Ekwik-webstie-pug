@@ -840,6 +840,99 @@ display: none;
     color: black;
 }
 
+#portfolio-list {
+    height: 220px;
+    width: 150px;
+    background: black;
+    position: absolute;
+    left: 1210px;
+    top: 110px;
+    border-radius: 15px;
+    visibility: hidden;
+}
+
+
+#faqs {
+    height: max-content;
+    width: 90%;
+    margin:auto;
+    display: flex;
+    justify-content: space-between;
+}
+.faq {
+    /* background: rgba(0, 0, 0, 0.76); */
+   /* position: absolute; */
+    width: 670px;
+}
+#faq2{
+    left: 800px;
+}
+
+.faq h2 {
+    text-align: center;
+}
+
+.q {
+    display: flex;
+    justify-content: space-between;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 5px;
+    background: rgba(248, 181, 56, 0.849);
+}
+.q button {
+    background: none;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    margin-right: 15px;
+}
+.q h4 i {
+    margin-right: 15px;
+}
+
+.a {
+    padding: 10px;
+    margin: 5px;
+    background: rgba(248, 248, 248, 0.767);
+    border-radius: 5px;
+    color: rgb(0, 0, 0);
+ 
+}
+.a-active {
+
+    display: none;
+}
+
+#free-website-audit {
+    position: absolute;
+    top: 70px;
+    left: 550px;
+    height: 40px;
+    width: max-content;
+    border-radius: 5px;
+    font-size: 18px;
+    outline: none;
+    background: none;
+    border: 2px solid black;
+    background: rgb(241, 199, 100);
+    transition: all 0.5s ease;
+}
+#free-website-audit:hover {
+    background: rgb(21,145,75);
+
+}
+#free-website-audit a {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+
 
 
 
@@ -957,7 +1050,7 @@ display: none;
 
 .sub-port {
    height: 70px;
-    width: 120px;
+    width: 100px;
     background-color: rgb(241,199,100);
     color: black;
 }
@@ -1126,19 +1219,19 @@ display: none;
 
 #explore{
     position: absolute;
-    left: 229px;
+    left: 190px;
 }
 #explore1{
     position: absolute;
-    left: 533px;
+    left: 460px;
 }
 #explore2{
     position: absolute;
-    left: 837px;
+    left: 730px;
 }
 #explore3{
     position: absolute;
-    left: 1140px;
+    left: 1000px;
 }
 
 

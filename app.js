@@ -206,8 +206,8 @@ app.get('/ppc-service', (req, res)=>{
 app.get('/web-development', (req, res)=>{
     res.status(200).render('web-development.pug');
 });
-app.get('/', (req, res)=>{
-    res.status(200).render('.pug');
+app.get('/portfolio', (req, res)=>{
+    res.status(200).render('portfolio.pug');
 });
 
 app.post('/contact', (req, res)=>{
